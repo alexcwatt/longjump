@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    longjump (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.14.4)
+    mocha (1.13.0)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  longjump!
+  minitest (~> 5.0)
+  mocha (~> 1.13)
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.2
