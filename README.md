@@ -62,6 +62,31 @@ def default_uri
 end
 ```
 
+### More than URL's
+
+Longjump can open URI's in applications, not just URL's in browsers. Here is an example of a Spotify jumper:
+
+```ruby
+module Longjump
+  module Jumpers
+    class Spotify < Base
+      command :spotify
+      description "Just a demo with Spotify"
+
+      subcommand :gn, uri: "spotify:album:1do9XXkq2SLwDV7vsEjtjg"
+    end
+  end
+end
+```
+
+For inspiration, here are some URI schemes to consider:
+
+* discord
+* postgres
+* redis
+* slack
+* zoommtg
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
