@@ -20,9 +20,9 @@ Gems that contain jumpers begin with `longjumper`.
 
 Remembering URI's is hard - and is mostly solved with tools like browser bookmarks. But there are still situations where a command-line launcher that generates URI's and opens them is useful. A few examples:
 
-* You want to jump to a URL in a development environment, but the environment's base URL changes regularly. You want something like `longjump myproject admin` to take you to the admin URL for your project, regardless of which environment you're currently using.
-* You want to open some internal tool with context - maybe feeding a username into a URL structure with something like `longjump directory alex`.
-* You just want a faster way of getting from your command line to a URL, even if it's static.
+* **Jump to a URL in a development environment**, where the environment's base URL is dynamic. You want something like `longjump myproject admin` to take you to the admin URL for your project, regardless of which environment you're currently using.
+* **Open some internal tool with context** - maybe feeding a username into a URL structure with something like `longjump directory alex`.
+* **Quickly jump from command line to a URL**, even if it's static.
 
 ## Writing Your Longjumper
 
